@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: pet-shop
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    url: {$DB_URL}
+    username: {$DB_USERNAME}
+    password: {$DB_PASSWORD}
